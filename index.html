@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover,interactive-widget=resizes-content">
+<meta name="theme-color" content="#020818">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<meta name="app-version" content="2.0">
+<title>Reacción en cadena · El juego</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="menu.css">
+<link rel="stylesheet" href="rec.css">
+<style>:root{--m-icono:"🔗"}</style>
+</head>
+<body>
+<div id="app"></div>
+<div id="hud" class="hidden">
+  <div id="hudA"></div>
+  <div class="centro"><div id="timer"></div><div id="roundTxt"></div></div>
+  <div id="hudB"></div>
+</div>
+<div id="juego" class="hidden"></div>
+<div id="hashtag"></div>
+<div id="bubble" class="hidden"></div>
+<div id="lower3" class="hidden"></div>
+<div id="credits" class="hidden"><div id="creditsRoll"></div></div>
+<div id="toast" class="hidden"></div>
+<div id="marcador" class="hidden"></div>
+<div id="topbar" class="hidden">
+  <button id="btnNormas" class="hidden" title="Normas sorpresa">🎲 10 normas</button>
+  <button id="btnMenu" title="Menú">☰</button>
+  <button id="btnCam" title="Cámara">👁</button>
+  <button id="btnSkip" class="hidden">Saltar ⏭</button>
+</div>
+<div id="cort" class="hidden"><video id="cortVid" playsinline preload="auto"></video><div id="cortSkip">Toca para saltar ⏭</div></div>
+<div id="hint" class="hidden"></div>
+<div id="actions"></div>
+<div id="resp" class="hidden"></div>
+<button id="pulsa" class="hidden">¡PULSAR!</button>
+<div id="overlay" class="hidden"></div>
+<div id="joy" class="hidden"><div id="knob"></div></div>
+<img id="cabLogo" alt="">
+<div id="fx-flash"></div>
+<div id="menu"></div>
+<div id="loading"><img src="img/logo.png" alt="" style="width:min(60vw,420px)"><p>Cargando el plató…</p></div>
+<div id="rotate">Gira el móvil 📱↻</div>
+<script src="js/app.js"></script>
+</body>
+</html>

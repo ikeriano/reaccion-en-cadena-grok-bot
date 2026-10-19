@@ -1,0 +1,13 @@
+node_modules/
+
+android/keystore/
+android/local.properties
+android/.gradle/
+android/build/
+android/app/build/
+android/app/src/main/assets/
+*.apk
+*.jks
+keystore.properties
+tools/frases.json
+node_modules

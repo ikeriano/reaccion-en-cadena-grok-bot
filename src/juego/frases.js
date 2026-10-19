@@ -1,0 +1,35 @@
+// Frases FIJAS del presentador (se pregeneran con su voz Piper; lo variable va solo en el bocadillo).
+export const F = {
+  hola: '¡Muy buenas tardes y bienvenidos a Reacción en cadena! El concurso donde una palabra lleva a la otra.',
+  bote: 'Hoy hay en juego un bote de ciento cincuenta mil euros.',
+  equipos: 'Hoy tenemos dos equipos de tres personas. Solo uno llegará a La última cadena.',
+  campeones: 'Los campeones defienden su puesto. ¡Un fuerte aplauso!',
+  aspirantes: 'Y enfrente, los aspirantes, que vienen con muchas ganas.',
+  encadenadas: 'Empezamos. Encadenada significa que la última letra de cada palabra es la primera de la siguiente. ¡Atentos al pulsador!',
+  minicadena: 'Vamos con La minicadena. Hay una canción escondida: averiguad las palabras de su letra. Cada palabra vale tres mil euros.',
+  centro: 'Llega El centro de la cadena. Os doy la primera palabra, la central y la última. Cada palabra vale cinco mil euros.',
+  embudo: 'Es el turno de El embudo, el personaje misterioso. Cuantas menos pistas necesitéis, más dinero ganáis. ¡Pulsad cuando lo sepáis!',
+  lleva: 'Vamos con… una lleva a la otra. Aumenta la dificultad, así que ahora ya no tenéis la cadena. Las palabras solo tienen que ver con aquellas que están en contacto.',
+  complicidad: 'Llega el momento decisivo: Complicidad ganadora. Sesenta segundos por equipo. Uno pulsa y los otros dos forman la pregunta, palabra a palabra.',
+  compliRival: 'Empiezan los rivales. ¡Tiempo!',
+  compliTuyo: 'Ahora vosotros. Tú tienes el pulsador. ¡Tiempo!',
+  empate: '¡Empate! Vamos al desempate: una sola pregunta. Gana quien acierte antes.',
+  ganaTu: '¡Vuestro equipo gana Complicidad ganadora y se va a La última cadena!',
+  ganaRival: 'Los rivales ganan Complicidad ganadora. Lo siento muchísimo, hoy os toca despediros.',
+  ultimaCadena: 'Bienvenidos a La última cadena. Quince eslabones, de arriba abajo. Cada palabra se relaciona con la de arriba y con la de abajo.',
+  ucNormas: 'Si acertáis, mantenéis el dinero. Si falláis, perdéis la mitad y pasa el turno. Tenéis dos comodines.',
+  ultimaPalabra: 'Y llegamos a La última palabra. Os doy las dos primeras letras y la última.',
+  misterio: '¿Queréis comprar el eslabón misterioso? Cuesta la mitad de lo que tenéis.',
+  misterioSi: 'Muy bien. Aquí tenéis el eslabón misterioso.',
+  ganador: '¡Correcto! ¡Os lleváis el bote! ¡Enhorabuena, campeones!',
+  perdedor: 'No es correcta. Hoy no hay premio, pero mañana volvéis a intentarlo.',
+  acierto: 'Pues es correcta.', fallo: '¡No es correcta tampoco!', bien: '¡Muy bien!', rebote: '¡Venga, rebote!', nadie: 'Nadie lo ha acertado.',
+  tiempo: '¡Se acabó el tiempo!', paso: 'Paso.', cancion: '¿Sabéis ya la canción?', cancionOk: '¡Esa es la canción!', cancionMal: 'No, esa no es la canción.',
+  gramatica: '¡Error gramatical! Esa pregunta no vale.', comodinLetra: 'Comodín: os doy una letra más.', comodinConsulta: 'Comodín: podéis consultaros entre vosotros.',
+  despedida: '¡Muchas gracias por acompañarnos! Mañana, más Reacción en cadena.', entreno: 'Vamos a entrenar. Aquí no hay bote: solo práctica.',
+  turnoTuyo: 'Te toca a ti.', eliminados: 'Habéis llegado muy lejos. ¡Gracias por jugar!', explora: 'Bienvenido al plató. Date una vuelta y mira los atriles.',
+};
+export const RIVALES = [
+  { nombre: 'Las Lorquitas', miembros: ['Beatriz', 'Verónica', 'Sara'] }, { nombre: 'Los Campeadores', miembros: ['Aingeru', 'Darío', 'Paco'] },
+];
+export const COMPAS = ['Paula', 'Javi'];
